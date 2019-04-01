@@ -1,0 +1,47 @@
+.row {
+    margin-left: 200px;
+    height: 50px;
+}
+
+.cell {
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.arrow {
+  cursor: pointer;
+}
+.arrow:hover {
+  background: #D1EEEE;
+}
+
+#unsorted {
+  margin-left: 0;
+}
+
+#sorted {
+  margin-top: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+.settled {
+  background: #8B8682;
+}
+
+.target {
+  background: #FF00FF;
+}
+
+.start {
+  margin-top: 100px;
+}
+
+#btn-start {
+  font-size: 30px;
+}
