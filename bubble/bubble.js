@@ -27,8 +27,10 @@ $(document).ready(() => {
       resetColor();
       //  显示提示信息
       $('#counter').html('一共交换了：' + count / 2 + '次');
+
     }
   });
+
 
   /*
    * 将dom列表转化成数组
@@ -65,4 +67,5 @@ $(document).ready(() => {
     // 改变第一次点击的方格的颜色
     $(dom).addClass('clicked');
   }
+
 });

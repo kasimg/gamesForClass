@@ -44,6 +44,7 @@ $(document).ready(() => {
       }
 
       //  显示提示信息
+      $('#tips').html('请继续把第一行紫色背景的数插入到第二行合适的位置');
     });
   }
 
@@ -87,6 +88,9 @@ $(document).ready(() => {
     insert();
     createSqures();
     $('#btn-start').attr('disabled', 'disabled');
+
+    //  显示提示信息
+    $('#tips').html('第一个数已经被移动到第二排，现在请把第一排第一个，也就是紫色背景的数字插入到第二排的合适位置');
   })
 
 });
